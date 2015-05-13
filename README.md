@@ -38,3 +38,7 @@ Known issues
  - This program has only been tested in Iceweasel 31.6.0 and performance may vary from browser to browser. See `//Forces more instructions to be executed in a given time. Mileage may vary from browser to browser...` in emulator.html
 
 
+Demo
+----
+
+See the demo at [http://integralprogrammer.github.io/arduino-hackvision-emulator](http://integralprogrammer.github.io/arduino-hackvision-emulator)
