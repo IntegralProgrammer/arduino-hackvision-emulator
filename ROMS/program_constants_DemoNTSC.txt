@@ -1,6 +1,0 @@
-framebuffer	=	692
-TVout::Delay()	=	4359
-TVout::delay_frame(unsigned int x)	=	4245
-analogRead	=	7932
-X resolution = 120
-Y resolution = 96
