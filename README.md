@@ -35,10 +35,10 @@ Known issues
   5. X resolution of graphical output screen
   6. Y resolution of graphical output screen
 
- - This program has only been tested in Iceweasel 31.6.0 and performance may vary from browser to browser. See `//Forces more instructions to be executed in a given time. Mileage may vary from browser to browser...` in emulator.html
+ - This program has only been tested in Firefox 45.3.0 and performance may vary from browser to browser. See `//Forces more instructions to be executed in a given time. Mileage may vary from browser to browser...` in emulator.html
 
 
 Demo
 ----
 
-See the demo at [http://integralprogrammer.github.io/arduino-hackvision-emulator](http://integralprogrammer.github.io/arduino-hackvision-emulator)
+See the demo at [https://integralprogrammer.github.io/arduino-hackvision-emulator](https://integralprogrammer.github.io/arduino-hackvision-emulator)
