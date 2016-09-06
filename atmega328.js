@@ -7,19 +7,19 @@ var PC = 0; //Program Counter
 var cycles = 0; //ATMEGA 328 cycles elapsed
 
 //var registers = new Array();
-var registers = Uint8Array(new ArrayBuffer(32));
+var registers = new Uint8Array(new ArrayBuffer(32));
 
 //var io_memory = new Array();
-var io_memory = Uint8Array(new ArrayBuffer(64));
+var io_memory = new Uint8Array(new ArrayBuffer(64));
 
 //var ext_io_memory = new Array();
-var ext_io_memory = Uint8Array(new ArrayBuffer(160));
+var ext_io_memory = new Uint8Array(new ArrayBuffer(160));
 
 //var sram = new Array();
-var sram = Uint8Array(new ArrayBuffer(2048));
+var sram = new Uint8Array(new ArrayBuffer(2048));
 
 //var eeprom = new Array();
-var eeprom = Uint8Array(new ArrayBuffer(1024));
+var eeprom = new Uint8Array(new ArrayBuffer(1024));
 
 var eeprom_ticks = 0;
 var timer_0_value = 0;
@@ -34,11 +34,11 @@ var debug_called = false; //For debugging stack pointer
 
 
 //var rom = new Array();
-var rom = Uint16Array(new ArrayBuffer(32768));
+var rom = new Uint16Array(new ArrayBuffer(32768));
 //var rom = [];
 
 // raw_rom is not byte-swapped and is used for LPM loads.
-var raw_rom = Uint16Array(new ArrayBuffer(32768));
+var raw_rom = new Uint16Array(new ArrayBuffer(32768));
 
 //var decoded_rom = new Array();
 var decoded_rom = [];
